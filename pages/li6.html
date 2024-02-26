@@ -3,37 +3,35 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Форма</title>
 </head>
 <body>
     <h1>Бугайчук Андрій Вікторович</h1>
     <fieldset class="osnovne"> 
         <legend><b><h2>Персональна інформація</h2></b></legend> 
-        <label> Прізвище <br><input type="text" name="firstname" required placeholder="Андрій"><br></label> 
-        <label> Ім'я <br><input type="text" name="lastname" required placeholder="Іванов"><br></label> 
-        <label> Пароль <br><input type="password" required><br></label> 
+        <h3> Прізвище <br><input type="text" name="firstname" required placeholder="Андрій"><br></h3> 
+        <h3> Ім'я <br><input type="text" name="lastname" required placeholder="Іванов"><br></h3> 
+        <h3> Пароль <br><input type="password" required><br></h3> 
         <p>Стать</p> 
         <input class="stat" type="radio" name="gender" checked> Чоловік<br> 
         <input class="stat" type="radio" name="gender" > Жінка<br><br> 
             <br></label> 
-        <label> Дата народження <br><input type="text" name="dateofbirth" required><br></label> 
-        <label><br> Рідне місто 
+        <h3> Дата народження <br><input type="text" name="dateofbirth" required><br></h3> 
+        <h3><br> Місто 
             <br><select> 
                 <option>Київ</option> 
                 <option>Львів</option> 
                 <option>Одеса</option> 
                 <option>Харків</option> 
                 <option>Дніпро</option> 
-                <option>Луцьк</option> 
                 <option>Ужгород</option> 
-                <option>Суми</option> 
                 <option>Житомир</option> 
             </select><br> 
-        </label> 
-        <label><br> Мова:  
+        </h3> 
+        <p><br> Мова:  
             <br><input class="lang" type="radio" name="language" checked>Українська 
             <br><input class="lang" type="radio" name="language">Англійська<br> 
-        </label> 
+        </p> 
     </fieldset> 
     <input type="submit" value="submit">
 </body>
